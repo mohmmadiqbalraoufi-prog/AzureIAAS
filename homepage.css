@@ -1,0 +1,144 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    direction: rtl;
+     background: linear-gradient(to right, #0078D4, #00BCF2);
+       font-family:sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+
+}
+.icon1:hover{
+    opacity: 0.9;
+    transform: translate(-5px);
+    
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+    
+}
+header{
+
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    position: sticky;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(10, 68, 150);
+    font-size: 30px;
+    
+}
+.icon1{
+    width: 45px;
+}   
+.buttons_h button {
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 8px 12px;
+    background-color:#0d8ef1;
+    border-radius: 15px;
+    border-color: rgb(12, 191, 251);
+    text-decoration: none;
+    border-radius: 6px;
+
+    
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.features {
+  padding: 50px 0;
+  text-align: center;
+  color:#05355a
+}
+.grid {
+  display: flex;
+  gap: 20px;
+}
+
+.chart {
+  background: rgb(32, 164, 252);
+  padding: 20px;
+  flex: 1;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.8);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color:rgb(10, 68, 150);
+  
+
+}
+.chart:hover{
+    opacity: 0.9;
+    transform: translate(-5px);
+    
+}
+.demo {
+  padding: 50px;
+  background: var(--light);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #05355a;
+}
+.security, .pricing {
+  padding: 30px;
+  text-align: center;
+  font-size: 24PX;
+   
+}
+.testimonials {
+  padding: 50px;
+  background: var(--light);
+}
+.chart1{
+    gap: 10px;
+    background: rgb(32, 164, 252);
+    padding: 20px;
+    flex: 1;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color:rgb(10, 68, 150);
+  
+}
+.chart1:hover{
+    opacity: 0.9;
+    transform: translate(-5px);
+    
+}
+.grid1{
+    display: flex;
+    gap: 30px;
+}
+.hero{
+    background: linear-gradient(135deg,#0078d4,#005a9e);
+    color: white;
+}
+*{
+    transition: 0.3s;
+}
+.faq {
+  padding: 50px;
+}
+.faq-item :hover {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: rgb(4, 105, 247);
+
+}
+*{
+  transition: 0.3s;
+}
