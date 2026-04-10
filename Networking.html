@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شبکه | Azure IaaS</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <h2><i class="fas fa-cloud"></i> Azure</h2>
+    <a href="./HomePage.html">صفحه اصلی</a>
+    <a href="./Dashboard.html"><i class="fas fa-tachometer-alt"></i> داشبورد</a>
+    <a href="./VertualMachines.html"><i class="fas fa-server"></i> ماشین مجازی</a>
+    <a href="./Storage.html"><i class="fas fa-database"></i> ذخیره‌سازی</a>
+    <a href="./Networking.html" class="active"><i class="fas fa-network-wired"></i> شبکه</a>
+    <a href="./Security.html"><i class="fas fa-shield-alt"></i> امنیت</a>
+    <a href="./pricing.html"><i class="fas fa-tag"></i> قیمت</a>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <h3><i class="fas fa-network-wired"></i> مدیریت شبکه</h3>
+      <button class="create-btn" onclick="alert('ایجاد شبکه مجازی جدید')"><i class="fas fa-plus-circle"></i> ایجاد VNet</button>
+    </div>
+
+    <div class="card1">
+      <div class="card"><h4><i class="fas fa-globe"></i> شبکه‌های مجازی</h4><p class="value">5 VNet</p></div>
+      <div class="card"><h4><i class="fas fa-ip"></i> آدرس‌های IP</h4><p class="value">12 عمومی | 24 خصوصی</p></div>
+      <div class="card"><h4><i class="fas fa-charging-station"></i> پهنای باند مصرفی</h4><p class="value">145 Mbps</p></div>
+      <div class="card"><h4><i class="fas fa-shield"></i> NSG فعال</h4><p class="value">8 عدد</p></div>
+    </div>
+
+    <div class="table-section">
+      <h3><i class="fas fa-diagram-project"></i> لیست شبکه‌های مجازی</h3>
+      <table>
+        <thead><tr><th>نام VNet</th><th>فضای آدرس</th><th>زیرشبکه‌ها</th><th>وضعیت</th><th>دستگاه‌های متصل</th></tr></thead>
+        <tbody>
+          <tr><td>vnet-prod</td><td>10.0.0.0/16</td><td>4</td><td><span class="status-badge status-active">فعال</span></td><td>12</td></tr>
+          <tr><td>vnet-dev</td><td>172.16.0.0/20</td><td>2</td><td><span class="status-badge status-active">فعال</span></td><td>5</td></tr>
+          <tr><td>vnet-test</td><td>192.168.0.0/24</td><td>1</td><td><span class="status-badge status-stopped">غیرفعال</span></td><td>0</td></tr>
+          <tr><td>vnet-hub</td><td>10.1.0.0/16</td><td>3</td><td><span class="status-badge status-active">فعال</span></td><td>8</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+</div>
+</body>
+</html>
