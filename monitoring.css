@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(180deg, #139ef4, #1e7ec3);
+  color: white;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+h1{
+  font-size: 30px;
+  color: #0f547e;
+  text-align: center;
+  margin-bottom: 30px;
+    margin-right: 3rem;
+}
+.card {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 20px;
+  width: 200px;
+  margin-top: 50px;
+  height: 100px;
+}
+
+
+/* disktop */
+@media (min-width: 1025px) {
+
+.cards {
+  flex-direction: row;
+}
+
+.search-box {
+  width: 50%;
+}
+
+
+
+
+/* tablet */
+@media (max-width: 1024px) {
+
+.cards {
+  flex-direction: column;
+}
+
+.chart-box, .support-box {
+  width: 80%;
+}
+
+}
+
+
+/* moblie */
+@media (max-width: 768px) {
+
+.search-box {
+  width: 90%;
+}
+
+.cards {
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-box, .support-box {
+  width: 90%;
+}
+
+}
+}

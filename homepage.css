@@ -6,7 +6,10 @@ body{
     direction: rtl;
      /* background: linear-gradient(to right, #0078D4, #00BCF2);     */
        background: linear-gradient(180deg, #139ef4 0%, #1e7ec3 100%); 
-       font-family:sans-serif;
+       /* background: linear-gradient(180deg, #e6f2ff 0%, #cce7ff 100%); */
+      /* background: linear-gradient(180deg, #0a7bdc 0%, #0f5fa5 100%); */
+      /* background: linear-gradient(180deg, #0f2027 0%, #203a43 50%, #2c5364 100%);  */
+      font-family:sans-serif;
        
        
 }
@@ -61,7 +64,7 @@ header{
     z-index: 100;
     background: #0bbef9;
     width: 100%;
-    height: 95px;
+    height: 105px;
 
 }
 
@@ -110,7 +113,7 @@ nav a {
 }
 .nav-links a:hover {
     background: rgba(15, 15, 16, 0.12);
-    color: #202325;
+    color: #202325; 
     transform: translateY(-2px);
 }
 .buttons_h {
@@ -140,8 +143,8 @@ nav a {
     transition: all 0.2s ease;
     background: white;
     font-family: 'Times New Roman', Times, serif;
-    margin-top:15px ;
-
+    margin-top:auto ;
+    
     
 }
 
@@ -153,6 +156,8 @@ nav a {
     width: 100px;
     height: 50px;
     border-radius: 20px;
+    margin-right:70rem;
+
 }
 
 .btn-primary:hover {
@@ -168,6 +173,7 @@ nav a {
     width: 100px;
     height: 50px;
     border-radius: 20px;
+
 }
 
 .btn-outline:hover {
@@ -216,7 +222,7 @@ flex-direction: row;
 }
 
 .chart {
-    
+    /* background: white; */
   background: rgb(32, 164, 252);
   padding: 20px;
   margin-top:10px;
@@ -240,6 +246,11 @@ flex-direction: row;
   background: var(--light);
   font-family: Arial, Helvetica, sans-serif;
   color: #05355a;
+}
+.demo h2{
+  text-align: center;
+  color: #005e9e;
+  font-size: 30px;
 }
 .pricing{
     width: 50%px;
@@ -291,6 +302,8 @@ flex-direction: row;
     color: #0a2e3f;
     margin-bottom: 2rem;
     position: relative;
+    font-size: 30px;
+    color: #005e9e;
     
 }
 
@@ -358,7 +371,7 @@ flex-direction: row;
   transition: 0.3s;
 }
 footer {
-  background: black;
+  /* background: linear-gradient(180deg, #139ef4 0%, #1e7ec3 100%);  */
   color: white;
   text-align: center;
   padding: 20px;
@@ -382,9 +395,30 @@ footer {
     box-shadow: 0 8px 20px rgba(0,0,0,0.05);
     transition: 0.3s;
     margin: 30px;
+    flex: 2;
     
    
 }
+/* 
+ */
+ 
+.testimonial-card1{
+    
+    background: rgb(32, 164, 252);
+   
+    font-size:16px ;
+    /* background: white; */
+    padding: 1.8rem;
+    border-radius: 28px;
+    text-align: left;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    transition: 0.3s;
+    
+    margin:30px ; 
+    
+   
+}
+/*  */
 
 .testimonial-card:hover {
     transform: translateY(-5px);
@@ -553,3 +587,7 @@ footer {
   }
 
 }
+/* ------------- */
+
+
+

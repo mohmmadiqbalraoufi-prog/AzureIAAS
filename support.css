@@ -1,0 +1,69 @@
+body {
+  background: linear-gradient(180deg, #139ef4, #1e7ec3);
+  text-align: center;
+  color: white;
+}
+
+.support-box {
+  background: white;
+  color: black;
+  padding: 40px;
+  margin: 50px auto;
+  width: 50%;
+  border-radius: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #0072C6;
+  color: white;
+}
+
+/* disktop */
+@media (min-width: 1025px) {
+
+.cards {
+  flex-direction: row;
+}
+
+.search-box {
+  width: 50%;
+}
+
+
+
+
+/* tablet */
+@media (max-width: 1024px) {
+
+.cards {
+  flex-direction: column;
+}
+
+.chart-box, .support-box {
+  width: 80%;
+}
+
+}
+
+
+/* moblie */
+@media (max-width: 768px) {
+
+.search-box {
+  width: 90%;
+}
+
+.cards {
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-box, .support-box {
+  width: 90%;
+}
+
+}
+}
